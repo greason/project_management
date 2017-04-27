@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidUnknownAttribute -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_iv"
+    android:layout_width="@dimen/BACK_ICON_WIDTH"
+    android:layout_height="@dimen/BACK_ICON_HEIGHT"
+    android:layout_alignParentLeft="true"
+    android:paddingBottom="@dimen/BACK_ICON_V_PADDING"
+    android:paddingLeft="@dimen/BACK_ICON_H_PADDING"
+    android:paddingRight="@dimen/BACK_ICON_H_PADDING"
+    android:paddingTop="@dimen/BACK_ICON_V_PADDING"
+    android:src="@drawable/ic_back"
+    tools:ignore="ContentDescription" />

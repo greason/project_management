@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">project management</string>
+
+
+    <string name="is_loading">Loading...</string>
+
+
+    <string name="project_title">The project list</string>
+    <string name="project_add">add project</string>
+
+    <string name="task_title">The task list</string>
+    <string name="task_add">add task</string>
+
+    <string name="task_add_title">The task add</string>
+    <string name="action_confirm">confirm</string>
+
+</resources>

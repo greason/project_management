@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--text size-->
+    <dimen name="font_size10">10sp</dimen>
+    <dimen name="font_size12">12sp</dimen>
+    <dimen name="font_size14">14sp</dimen>
+    <dimen name="font_size15">15sp</dimen>
+    <dimen name="font_size16">16sp</dimen>
+    <dimen name="font_size17">17sp</dimen>
+
+    <!-- nav back -->
+    <dimen name="BACK_ICON_WIDTH">50dp</dimen>
+    <dimen name="BACK_ICON_HEIGHT">44dp</dimen>
+    <dimen name="BACK_ICON_H_PADDING">15dp</dimen>
+    <dimen name="BACK_ICON_V_PADDING">12dp</dimen>
+
+
+    <dimen name="ActionBarHeight">48dp</dimen>
+
+    <dimen name="LINE_HEIGHT">1px</dimen>
+
+
+
+    <dimen name="normal_margin">10dp</dimen>
+    <dimen name="big_margin">15dp</dimen>
+
+</resources>

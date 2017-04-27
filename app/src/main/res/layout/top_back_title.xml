@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_title_ll"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ActionBarHeight"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorNav">
+
+    <include layout="@layout/component_back"/>
+
+    <TextView
+        android:id="@+id/top_back_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/font_size17"/>
+
+    <TextView
+        android:id="@+id/top_back_action"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:minWidth="@dimen/BACK_ICON_WIDTH"
+        android:paddingLeft="5dp"
+        android:paddingRight="@dimen/BACK_ICON_H_PADDING"
+        android:singleLine="true"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/font_size17"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/LINE_HEIGHT"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorLightGray"/>
+
+</RelativeLayout>

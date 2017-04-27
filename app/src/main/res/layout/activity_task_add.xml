@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_back_title"/>
+
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ActionBarHeight"
+        android:background="@null"
+        android:hint="task name"
+        android:padding="@dimen/normal_margin"
+        android:textSize="@dimen/font_size14"/>
+
+    <EditText
+        android:id="@+id/task_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ActionBarHeight"
+        android:background="@null"
+        android:hint="task description"
+        android:padding="@dimen/normal_margin"
+        android:textSize="@dimen/font_size14"/>
+
+
+</LinearLayout>
